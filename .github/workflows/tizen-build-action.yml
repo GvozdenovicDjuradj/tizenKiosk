@@ -24,6 +24,23 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      
+      
+  #     - run: cp .npm/.npmrc ~/.npmrc && npm config list
+  #       env:
+  #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+  #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+      - run: npm install
+  #       env:
+  #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+  #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+
+      - run: cd ${{ github.workspace }}
+      - run: ls
+      - run: npm run web:build
+      - run: ls ${{ github.workspace }}/web
+      - run: ls ${{ github.workspace }}/web/build
 
       - name: Build Tizen app
         id: tizen-build-action
