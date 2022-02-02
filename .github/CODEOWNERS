@@ -1,0 +1,15 @@
+
+# @qudini/platform-team
+/.github/CODEOWNERS    @qudini/platform-team
+/.github/workflows     @qudini/platform-team
+/ci/*                  @qudini/platform-team
+/.ivy2/*               @qudini/platform-team
+/.npm/*                @qudini/platform-team
+/ci/*                  @qudini/platform-team
+/helm/*                @qudini/platform-team
+/Dockerfile            @qudini/platform-team
+
+# @qudini/frontend-team
+/*                    @qudini/frontend-team
+
+# @qudini/backend-team

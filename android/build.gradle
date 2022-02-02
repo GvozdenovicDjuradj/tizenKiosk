@@ -1,0 +1,59 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+     ext {
+        minSdkVersion = 18
+        buildToolsVersion = '28.0.3'
+        compileSdkVersion = 28
+        supportLibVersion = '28.0.0'
+        targetSdkVersion = 28
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenLocal()
+        jcenter()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+}
+
+
+subprojects {
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion 28
+                buildToolsVersion "27.0.3"
+            }
+            dependencies {
+                compile "com.android.support:appcompat-v7:28+"
+            }
+        }
+    }
+}
+
+subprojects {
+    project ->
+    if (project.name.contains('react-native-star-prnt') || project.name.contains('rn-fetch-blob')) {
+            buildscript {
+                repositories {
+                    maven { url = 'https://dl.bintray.com/android/android-tools/'}
+                }
+            }
+    }
+}

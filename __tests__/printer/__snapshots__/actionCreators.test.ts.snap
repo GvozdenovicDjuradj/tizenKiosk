@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the printer actionCreators module should export setDebugOutput which returns the correct action 1`] = `
+Object {
+  "payload": Object {
+    "value": true,
+  },
+  "type": "SET_DEBUG_OUTPUT",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called clearPrinterDebugOutput which returns the correct action 1`] = `
+Object {
+  "type": "CLEAR_PRINTER_DEBUG_OUTPUT",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called displayPrinterNotification which returns the correct action 1`] = `
+Object {
+  "payload": Object {
+    "message": "example message",
+    "title": "example title",
+  },
+  "type": "DISPLAY_PRINTER_NOTIFICATION",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called findConnectedPrinters which returns the correct action 1`] = `
+Object {
+  "type": "FIND_CONNECTED_PRINTERS",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called findConnectedPrintersFulfilled which returns the correct action 1`] = `
+Object {
+  "payload": Object {
+    "printers": Immutable.List [
+      Object {
+        "USBSerialNumber": "Example",
+        "macAddress": "Example",
+        "modelName": "Example",
+        "portName": "Example",
+      },
+    ],
+  },
+  "type": "FIND_CONNECTED_PRINTERS_FULFILLED",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called findConnectedPrintersRejected which returns the correct action 1`] = `
+Object {
+  "type": "FIND_CONNECTED_PRINTERS_REJECTED",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called hidePrinterNotification which returns the correct action 1`] = `
+Object {
+  "type": "HIDE_PRINTER_NOTIFICATION",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called selectPrinter which returns the correct action 1`] = `
+Object {
+  "payload": Object {
+    "printer": Object {
+      "modelName": "Test",
+      "portName": "Test",
+    },
+  },
+  "type": "SELECT_PRINTER",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called setPrinterEnabled which returns the correct action 1`] = `
+Object {
+  "payload": Object {
+    "enabled": true,
+  },
+  "type": "SET_PRINTER_ENABLED",
+}
+`;
+
+exports[`the printer actionCreators module should have an action creator called toggleDebugOutput which returns the correct action 1`] = `
+Object {
+  "type": "TOGGLE_DEBUG_OUTPUT",
+}
+`;

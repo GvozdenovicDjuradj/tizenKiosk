@@ -1,0 +1,2518 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the <PhoneNumberTextInput /> component renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "marginTop": 15,
+        },
+        undefined,
+      ],
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(52, 52, 52, 0.5)",
+            "display": "flex",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "center",
+            "zIndex": 9,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 4,
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 700,
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+              "width": "40%",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 10,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 32,
+                  "width": 32,
+                },
+                undefined,
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Ubuntu",
+                  "textTransform": "uppercase",
+                },
+                undefined,
+              ]
+            }
+          >
+            Select Phone Number Country
+          </Text>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "height": 32,
+                "opacity": 1,
+                "width": 32,
+              }
+            }
+          >
+            <Image
+              height={32}
+              source={
+                Object {
+                  "uri": "printer.png",
+                }
+              }
+              width={32}
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderColor": "#ced4da",
+                "borderRadius": 4,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 54,
+                "justifyContent": "space-between",
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            onChange={[Function]}
+            placeholder="Filter Countries"
+            rejectResponderTermination={true}
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 26,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "height": "100%",
+                  "paddingLeft": 14,
+                },
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <RCTScrollView
+          data={
+            Array [
+              Object {
+                "id": "ad",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ad.png",
+                },
+                "title": "Andorra",
+              },
+              Object {
+                "id": "ae",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ae.png",
+                },
+                "title": "United Arab Emirates",
+              },
+              Object {
+                "id": "af",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/af.png",
+                },
+                "title": "Afghanistan",
+              },
+              Object {
+                "id": "ag",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ag.png",
+                },
+                "title": "Antigua & Barbuda",
+              },
+              Object {
+                "id": "ai",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ai.png",
+                },
+                "title": "Anguilla",
+              },
+              Object {
+                "id": "al",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/al.png",
+                },
+                "title": "Albania",
+              },
+              Object {
+                "id": "am",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/am.png",
+                },
+                "title": "Armenia",
+              },
+              Object {
+                "id": "ao",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ao.png",
+                },
+                "title": "Angola",
+              },
+              Object {
+                "id": "aq",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/aq.png",
+                },
+                "title": "Antarctica",
+              },
+              Object {
+                "id": "ar",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ar.png",
+                },
+                "title": "Argentina",
+              },
+              Object {
+                "id": "as",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/as.png",
+                },
+                "title": "American Samoa",
+              },
+              Object {
+                "id": "at",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/at.png",
+                },
+                "title": "Austria",
+              },
+              Object {
+                "id": "au",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/au.png",
+                },
+                "title": "Australia",
+              },
+              Object {
+                "id": "aw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/aw.png",
+                },
+                "title": "Aruba",
+              },
+              Object {
+                "id": "az",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/az.png",
+                },
+                "title": "Azerbaijan",
+              },
+              Object {
+                "id": "ba",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ba.png",
+                },
+                "title": "Bosnia & Herzegovina",
+              },
+              Object {
+                "id": "bb",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bb.png",
+                },
+                "title": "Barbados",
+              },
+              Object {
+                "id": "bd",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bd.png",
+                },
+                "title": "Bangladesh",
+              },
+              Object {
+                "id": "be",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/be.png",
+                },
+                "title": "Belgium",
+              },
+              Object {
+                "id": "bf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bf.png",
+                },
+                "title": "Burkina Faso",
+              },
+              Object {
+                "id": "bg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bg.png",
+                },
+                "title": "Bulgaria",
+              },
+              Object {
+                "id": "bh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bh.png",
+                },
+                "title": "Bahrain",
+              },
+              Object {
+                "id": "bi",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bi.png",
+                },
+                "title": "Burundi",
+              },
+              Object {
+                "id": "bj",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bj.png",
+                },
+                "title": "Benin",
+              },
+              Object {
+                "id": "bm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bm.png",
+                },
+                "title": "Bermuda",
+              },
+              Object {
+                "id": "bn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bn.png",
+                },
+                "title": "Brunei Darussalam",
+              },
+              Object {
+                "id": "bo",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bo.png",
+                },
+                "title": "Bolivia",
+              },
+              Object {
+                "id": "br",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/br.png",
+                },
+                "title": "Brazil",
+              },
+              Object {
+                "id": "bs",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bs.png",
+                },
+                "title": "Bahamas",
+              },
+              Object {
+                "id": "bt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bt.png",
+                },
+                "title": "Bhutan",
+              },
+              Object {
+                "id": "bv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bv.png",
+                },
+                "title": "Bouvet Island",
+              },
+              Object {
+                "id": "bw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bw.png",
+                },
+                "title": "Botswana",
+              },
+              Object {
+                "id": "by",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/by.png",
+                },
+                "title": "Belarus",
+              },
+              Object {
+                "id": "bz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/bz.png",
+                },
+                "title": "Belize",
+              },
+              Object {
+                "id": "ca",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ca.png",
+                },
+                "title": "Canada",
+              },
+              Object {
+                "id": "cc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cc.png",
+                },
+                "title": "Cocos (Keeling) Islands",
+              },
+              Object {
+                "id": "cd",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cd.png",
+                },
+                "title": "Zaire",
+              },
+              Object {
+                "id": "cf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cf.png",
+                },
+                "title": "Central African Republic",
+              },
+              Object {
+                "id": "cg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cg.png",
+                },
+                "title": "Congo",
+              },
+              Object {
+                "id": "ch",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ch.png",
+                },
+                "title": "Switzerland",
+              },
+              Object {
+                "id": "ci",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ci.png",
+                },
+                "title": "Cote D'ivoire (Ivory Coast)",
+              },
+              Object {
+                "id": "ck",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ck.png",
+                },
+                "title": "Cook Islands",
+              },
+              Object {
+                "id": "cl",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cl.png",
+                },
+                "title": "Chile",
+              },
+              Object {
+                "id": "cm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cm.png",
+                },
+                "title": "Cameroon",
+              },
+              Object {
+                "id": "cn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cn.png",
+                },
+                "title": "China",
+              },
+              Object {
+                "id": "co",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/co.png",
+                },
+                "title": "Colombia",
+              },
+              Object {
+                "id": "cr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cr.png",
+                },
+                "title": "Costa Rica",
+              },
+              Object {
+                "id": "cu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cu.png",
+                },
+                "title": "Cuba",
+              },
+              Object {
+                "id": "cv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cv.png",
+                },
+                "title": "Cape Verde",
+              },
+              Object {
+                "id": "cx",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cx.png",
+                },
+                "title": "Christmas Island",
+              },
+              Object {
+                "id": "cy",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cy.png",
+                },
+                "title": "Cyprus",
+              },
+              Object {
+                "id": "cz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/cz.png",
+                },
+                "title": "Czech Republic",
+              },
+              Object {
+                "id": "de",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/de.png",
+                },
+                "title": "Germany",
+              },
+              Object {
+                "id": "dj",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/dj.png",
+                },
+                "title": "Djibouti",
+              },
+              Object {
+                "id": "dk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/dk.png",
+                },
+                "title": "Denmark",
+              },
+              Object {
+                "id": "dm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/dm.png",
+                },
+                "title": "Dominica",
+              },
+              Object {
+                "id": "do",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/do.png",
+                },
+                "title": "Dominican Republic",
+              },
+              Object {
+                "id": "dz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/dz.png",
+                },
+                "title": "Algeria",
+              },
+              Object {
+                "id": "ec",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ec.png",
+                },
+                "title": "Ecuador",
+              },
+              Object {
+                "id": "ee",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ee.png",
+                },
+                "title": "Estonia",
+              },
+              Object {
+                "id": "eg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/eg.png",
+                },
+                "title": "Egypt",
+              },
+              Object {
+                "id": "eh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/eh.png",
+                },
+                "title": "Western Sahara",
+              },
+              Object {
+                "id": "er",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/er.png",
+                },
+                "title": "Eritrea",
+              },
+              Object {
+                "id": "es",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/es.png",
+                },
+                "title": "Spain",
+              },
+              Object {
+                "id": "et",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/et.png",
+                },
+                "title": "Ethiopia",
+              },
+              Object {
+                "id": "fi",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fi.png",
+                },
+                "title": "Finland",
+              },
+              Object {
+                "id": "fj",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fj.png",
+                },
+                "title": "Fiji",
+              },
+              Object {
+                "id": "fk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fk.png",
+                },
+                "title": "Falkland Islands (Malvinas)",
+              },
+              Object {
+                "id": "fm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fm.png",
+                },
+                "title": "Micronesia",
+              },
+              Object {
+                "id": "fo",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fo.png",
+                },
+                "title": "Faroe Islands",
+              },
+              Object {
+                "id": "fr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/fr.png",
+                },
+                "title": "France",
+              },
+              Object {
+                "id": "ga",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ga.png",
+                },
+                "title": "Gabon",
+              },
+              Object {
+                "id": "gb",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gb.png",
+                },
+                "title": "United Kingdom",
+              },
+              Object {
+                "id": "gd",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gd.png",
+                },
+                "title": "Grenada",
+              },
+              Object {
+                "id": "ge",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ge.png",
+                },
+                "title": "Georgia",
+              },
+              Object {
+                "id": "gf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gf.png",
+                },
+                "title": "French Guiana",
+              },
+              Object {
+                "id": "gh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gh.png",
+                },
+                "title": "Ghana",
+              },
+              Object {
+                "id": "gi",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gi.png",
+                },
+                "title": "Gibraltar",
+              },
+              Object {
+                "id": "gl",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gl.png",
+                },
+                "title": "Greenland",
+              },
+              Object {
+                "id": "gm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gm.png",
+                },
+                "title": "Gambia",
+              },
+              Object {
+                "id": "gn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gn.png",
+                },
+                "title": "Guinea",
+              },
+              Object {
+                "id": "gp",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gp.png",
+                },
+                "title": "Guadeloupe",
+              },
+              Object {
+                "id": "gq",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gq.png",
+                },
+                "title": "Equatorial Guinea",
+              },
+              Object {
+                "id": "gr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gr.png",
+                },
+                "title": "Greece",
+              },
+              Object {
+                "id": "gs",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gs.png",
+                },
+                "title": "S.Georgia & S.Sandwich Islands",
+              },
+              Object {
+                "id": "gt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gt.png",
+                },
+                "title": "Guatemala",
+              },
+              Object {
+                "id": "gu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gu.png",
+                },
+                "title": "Guam",
+              },
+              Object {
+                "id": "gw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gw.png",
+                },
+                "title": "Guinea-Bissau",
+              },
+              Object {
+                "id": "gy",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/gy.png",
+                },
+                "title": "Guyana",
+              },
+              Object {
+                "id": "hk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/hk.png",
+                },
+                "title": "Hong Kong",
+              },
+              Object {
+                "id": "hm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/hm.png",
+                },
+                "title": "Heard & McDonald Islands",
+              },
+              Object {
+                "id": "hn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/hn.png",
+                },
+                "title": "Honduras",
+              },
+              Object {
+                "id": "hr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/hr.png",
+                },
+                "title": "Croatia (Hrvatska)",
+              },
+              Object {
+                "id": "ht",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ht.png",
+                },
+                "title": "Haiti",
+              },
+              Object {
+                "id": "hu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/hu.png",
+                },
+                "title": "Hungary",
+              },
+              Object {
+                "id": "id",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/id.png",
+                },
+                "title": "Indonesia",
+              },
+              Object {
+                "id": "ie",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ie.png",
+                },
+                "title": "Ireland",
+              },
+              Object {
+                "id": "il",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/il.png",
+                },
+                "title": "Israel",
+              },
+              Object {
+                "id": "in",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/in.png",
+                },
+                "title": "India",
+              },
+              Object {
+                "id": "io",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/io.png",
+                },
+                "title": "British Indian Ocean Territory",
+              },
+              Object {
+                "id": "iq",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/iq.png",
+                },
+                "title": "Iraq",
+              },
+              Object {
+                "id": "ir",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ir.png",
+                },
+                "title": "Iran",
+              },
+              Object {
+                "id": "is",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/is.png",
+                },
+                "title": "Iceland",
+              },
+              Object {
+                "id": "it",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/it.png",
+                },
+                "title": "Italy",
+              },
+              Object {
+                "id": "jm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/jm.png",
+                },
+                "title": "Jamaica",
+              },
+              Object {
+                "id": "jo",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/jo.png",
+                },
+                "title": "Jordan",
+              },
+              Object {
+                "id": "jp",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/jp.png",
+                },
+                "title": "Japan",
+              },
+              Object {
+                "id": "ke",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ke.png",
+                },
+                "title": "Kenya",
+              },
+              Object {
+                "id": "kg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kg.png",
+                },
+                "title": "Kyrgyzstan",
+              },
+              Object {
+                "id": "kh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kh.png",
+                },
+                "title": "Cambodia",
+              },
+              Object {
+                "id": "ki",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ki.png",
+                },
+                "title": "Kiribati",
+              },
+              Object {
+                "id": "km",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/km.png",
+                },
+                "title": "Comoros",
+              },
+              Object {
+                "id": "kn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kn.png",
+                },
+                "title": "Saint Kitts & Nevis",
+              },
+              Object {
+                "id": "kp",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kp.png",
+                },
+                "title": "Korea (North)",
+              },
+              Object {
+                "id": "kr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kr.png",
+                },
+                "title": "Korea (South)",
+              },
+              Object {
+                "id": "kw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kw.png",
+                },
+                "title": "Kuwait",
+              },
+              Object {
+                "id": "ky",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ky.png",
+                },
+                "title": "Cayman Islands",
+              },
+              Object {
+                "id": "kz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/kz.png",
+                },
+                "title": "Kazakhstan",
+              },
+              Object {
+                "id": "la",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/la.png",
+                },
+                "title": "Laos",
+              },
+              Object {
+                "id": "lb",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lb.png",
+                },
+                "title": "Lebanon",
+              },
+              Object {
+                "id": "lc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lc.png",
+                },
+                "title": "Saint Lucia",
+              },
+              Object {
+                "id": "li",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/li.png",
+                },
+                "title": "Liechtenstein",
+              },
+              Object {
+                "id": "lk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lk.png",
+                },
+                "title": "Sri Lanka",
+              },
+              Object {
+                "id": "lr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lr.png",
+                },
+                "title": "Liberia",
+              },
+              Object {
+                "id": "ls",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ls.png",
+                },
+                "title": "Lesotho",
+              },
+              Object {
+                "id": "lt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lt.png",
+                },
+                "title": "Lithuania",
+              },
+              Object {
+                "id": "lu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lu.png",
+                },
+                "title": "Luxembourg",
+              },
+              Object {
+                "id": "lv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/lv.png",
+                },
+                "title": "Latvia",
+              },
+              Object {
+                "id": "ly",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ly.png",
+                },
+                "title": "Libya",
+              },
+              Object {
+                "id": "ma",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ma.png",
+                },
+                "title": "Morocco",
+              },
+              Object {
+                "id": "mc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mc.png",
+                },
+                "title": "Monaco",
+              },
+              Object {
+                "id": "md",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/md.png",
+                },
+                "title": "Moldova",
+              },
+              Object {
+                "id": "mg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mg.png",
+                },
+                "title": "Madagascar",
+              },
+              Object {
+                "id": "mh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mh.png",
+                },
+                "title": "Marshall Islands",
+              },
+              Object {
+                "id": "mk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mk.png",
+                },
+                "title": "Macedonia",
+              },
+              Object {
+                "id": "ml",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ml.png",
+                },
+                "title": "Mali",
+              },
+              Object {
+                "id": "mm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mm.png",
+                },
+                "title": "Myanmar",
+              },
+              Object {
+                "id": "mn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mn.png",
+                },
+                "title": "Mongolia",
+              },
+              Object {
+                "id": "mo",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mo.png",
+                },
+                "title": "Macau",
+              },
+              Object {
+                "id": "mp",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mp.png",
+                },
+                "title": "Northern Mariana Islands",
+              },
+              Object {
+                "id": "mq",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mq.png",
+                },
+                "title": "Martinique",
+              },
+              Object {
+                "id": "mr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mr.png",
+                },
+                "title": "Mauritania",
+              },
+              Object {
+                "id": "ms",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ms.png",
+                },
+                "title": "Montserrat",
+              },
+              Object {
+                "id": "mt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mt.png",
+                },
+                "title": "Malta",
+              },
+              Object {
+                "id": "mu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mu.png",
+                },
+                "title": "Mauritius",
+              },
+              Object {
+                "id": "mv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mv.png",
+                },
+                "title": "Maldives",
+              },
+              Object {
+                "id": "mw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mw.png",
+                },
+                "title": "Malawi",
+              },
+              Object {
+                "id": "mx",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mx.png",
+                },
+                "title": "Mexico",
+              },
+              Object {
+                "id": "my",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/my.png",
+                },
+                "title": "Malaysia",
+              },
+              Object {
+                "id": "mz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/mz.png",
+                },
+                "title": "Mozambique",
+              },
+              Object {
+                "id": "na",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/na.png",
+                },
+                "title": "Namibia",
+              },
+              Object {
+                "id": "nc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nc.png",
+                },
+                "title": "New Caledonia",
+              },
+              Object {
+                "id": "ne",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ne.png",
+                },
+                "title": "Niger",
+              },
+              Object {
+                "id": "nf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nf.png",
+                },
+                "title": "Norfolk Island",
+              },
+              Object {
+                "id": "ng",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ng.png",
+                },
+                "title": "Nigeria",
+              },
+              Object {
+                "id": "ni",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ni.png",
+                },
+                "title": "Nicaragua",
+              },
+              Object {
+                "id": "nl",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nl.png",
+                },
+                "title": "Netherlands",
+              },
+              Object {
+                "id": "no",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/no.png",
+                },
+                "title": "Norway",
+              },
+              Object {
+                "id": "np",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/np.png",
+                },
+                "title": "Nepal",
+              },
+              Object {
+                "id": "nr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nr.png",
+                },
+                "title": "Nauru",
+              },
+              Object {
+                "id": "nu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nu.png",
+                },
+                "title": "Niue",
+              },
+              Object {
+                "id": "nz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/nz.png",
+                },
+                "title": "New Zealand",
+              },
+              Object {
+                "id": "om",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/om.png",
+                },
+                "title": "Oman",
+              },
+              Object {
+                "id": "pa",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pa.png",
+                },
+                "title": "Panama",
+              },
+              Object {
+                "id": "pe",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pe.png",
+                },
+                "title": "Peru",
+              },
+              Object {
+                "id": "pf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pf.png",
+                },
+                "title": "French Polynesia",
+              },
+              Object {
+                "id": "pg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pg.png",
+                },
+                "title": "Papua New Guinea",
+              },
+              Object {
+                "id": "ph",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ph.png",
+                },
+                "title": "Philippines",
+              },
+              Object {
+                "id": "pk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pk.png",
+                },
+                "title": "Pakistan",
+              },
+              Object {
+                "id": "pl",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pl.png",
+                },
+                "title": "Poland",
+              },
+              Object {
+                "id": "pm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pm.png",
+                },
+                "title": "St. Pierre & Miquelon",
+              },
+              Object {
+                "id": "pn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pn.png",
+                },
+                "title": "Pitcairn",
+              },
+              Object {
+                "id": "pr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pr.png",
+                },
+                "title": "Puerto Rico",
+              },
+              Object {
+                "id": "pt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pt.png",
+                },
+                "title": "Portugal",
+              },
+              Object {
+                "id": "pw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/pw.png",
+                },
+                "title": "Palau",
+              },
+              Object {
+                "id": "py",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/py.png",
+                },
+                "title": "Paraguay",
+              },
+              Object {
+                "id": "qa",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/qa.png",
+                },
+                "title": "Qatar",
+              },
+              Object {
+                "id": "re",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/re.png",
+                },
+                "title": "Reunion",
+              },
+              Object {
+                "id": "ro",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ro.png",
+                },
+                "title": "Romania",
+              },
+              Object {
+                "id": "ru",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ru.png",
+                },
+                "title": "Russian Federation",
+              },
+              Object {
+                "id": "rw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/rw.png",
+                },
+                "title": "Rwanda",
+              },
+              Object {
+                "id": "sa",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sa.png",
+                },
+                "title": "Saudi Arabia",
+              },
+              Object {
+                "id": "sb",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sb.png",
+                },
+                "title": "Solomon Islands",
+              },
+              Object {
+                "id": "sc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sc.png",
+                },
+                "title": "Seychelles",
+              },
+              Object {
+                "id": "sd",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sd.png",
+                },
+                "title": "Sudan",
+              },
+              Object {
+                "id": "se",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/se.png",
+                },
+                "title": "Sweden",
+              },
+              Object {
+                "id": "sg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sg.png",
+                },
+                "title": "Singapore",
+              },
+              Object {
+                "id": "sh",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sh.png",
+                },
+                "title": "St. Helena",
+              },
+              Object {
+                "id": "si",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/si.png",
+                },
+                "title": "Slovenia",
+              },
+              Object {
+                "id": "sj",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sj.png",
+                },
+                "title": "Svalbard & Jan Mayen Islands",
+              },
+              Object {
+                "id": "sk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sk.png",
+                },
+                "title": "Slovak Republic",
+              },
+              Object {
+                "id": "sl",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sl.png",
+                },
+                "title": "Sierra Leone",
+              },
+              Object {
+                "id": "sm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sm.png",
+                },
+                "title": "San Marino",
+              },
+              Object {
+                "id": "sn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sn.png",
+                },
+                "title": "Senegal",
+              },
+              Object {
+                "id": "so",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/so.png",
+                },
+                "title": "Somalia",
+              },
+              Object {
+                "id": "sr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sr.png",
+                },
+                "title": "Suriname",
+              },
+              Object {
+                "id": "st",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/st.png",
+                },
+                "title": "Sao Tome & Principe",
+              },
+              Object {
+                "id": "sv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sv.png",
+                },
+                "title": "El Salvador",
+              },
+              Object {
+                "id": "sy",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sy.png",
+                },
+                "title": "Syria",
+              },
+              Object {
+                "id": "sz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/sz.png",
+                },
+                "title": "Swaziland",
+              },
+              Object {
+                "id": "tc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tc.png",
+                },
+                "title": "Turks & Caicos Islands",
+              },
+              Object {
+                "id": "td",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/td.png",
+                },
+                "title": "Chad",
+              },
+              Object {
+                "id": "tf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tf.png",
+                },
+                "title": "French Southern Territories",
+              },
+              Object {
+                "id": "tg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tg.png",
+                },
+                "title": "Togo",
+              },
+              Object {
+                "id": "th",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/th.png",
+                },
+                "title": "Thailand",
+              },
+              Object {
+                "id": "tj",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tj.png",
+                },
+                "title": "Tajikistan",
+              },
+              Object {
+                "id": "tk",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tk.png",
+                },
+                "title": "Tokelau",
+              },
+              Object {
+                "id": "tm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tm.png",
+                },
+                "title": "Turkmenistan",
+              },
+              Object {
+                "id": "tn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tn.png",
+                },
+                "title": "Tunisia",
+              },
+              Object {
+                "id": "to",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/to.png",
+                },
+                "title": "Tonga",
+              },
+              Object {
+                "id": "tr",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tr.png",
+                },
+                "title": "Turkey",
+              },
+              Object {
+                "id": "tt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tt.png",
+                },
+                "title": "Trinidad & Tobago",
+              },
+              Object {
+                "id": "tv",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tv.png",
+                },
+                "title": "Tuvalu",
+              },
+              Object {
+                "id": "tw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tw.png",
+                },
+                "title": "Taiwan",
+              },
+              Object {
+                "id": "tz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/tz.png",
+                },
+                "title": "Tanzania",
+              },
+              Object {
+                "id": "ua",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ua.png",
+                },
+                "title": "Ukraine",
+              },
+              Object {
+                "id": "ug",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ug.png",
+                },
+                "title": "Uganda",
+              },
+              Object {
+                "id": "us",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/us.png",
+                },
+                "title": "United States",
+              },
+              Object {
+                "id": "uy",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/uy.png",
+                },
+                "title": "Uruguay",
+              },
+              Object {
+                "id": "uz",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/uz.png",
+                },
+                "title": "Uzbekistan",
+              },
+              Object {
+                "id": "va",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/va.png",
+                },
+                "title": "Vatican City (Holy See)",
+              },
+              Object {
+                "id": "vc",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/vc.png",
+                },
+                "title": "St. Vincent & the Grenadines",
+              },
+              Object {
+                "id": "ve",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ve.png",
+                },
+                "title": "Venezuela",
+              },
+              Object {
+                "id": "vg",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/vg.png",
+                },
+                "title": "Virgin Islands (British)",
+              },
+              Object {
+                "id": "vi",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/vi.png",
+                },
+                "title": "Virgin Islands (U.S.)",
+              },
+              Object {
+                "id": "vn",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/vn.png",
+                },
+                "title": "Viet Nam",
+              },
+              Object {
+                "id": "vu",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/vu.png",
+                },
+                "title": "Vanuatu",
+              },
+              Object {
+                "id": "wf",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/wf.png",
+                },
+                "title": "Wallis & Futuna Islands",
+              },
+              Object {
+                "id": "ws",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ws.png",
+                },
+                "title": "Samoa",
+              },
+              Object {
+                "id": "ye",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/ye.png",
+                },
+                "title": "Yemen",
+              },
+              Object {
+                "id": "yt",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/yt.png",
+                },
+                "title": "Mayotte",
+              },
+              Object {
+                "id": "za",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/za.png",
+                },
+                "title": "South Africa",
+              },
+              Object {
+                "id": "zm",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/zm.png",
+                },
+                "title": "Zambia",
+              },
+              Object {
+                "id": "zw",
+                "image": Object {
+                  "uri": "https://qa.qudini.com/static/zw.png",
+                },
+                "title": "Zimbabwe",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Object {
+              "width": 322,
+            }
+          }
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ad.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Andorra
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ae.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  United Arab Emirates
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/af.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Afghanistan
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ag.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Antigua & Barbuda
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ai.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Anguilla
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/al.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Albania
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/am.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Armenia
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ao.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Angola
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/aq.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Antarctica
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://qa.qudini.com/static/ar.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 32,
+                        "marginRight": 14,
+                        "width": 32,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Ubuntu",
+                        "textTransform": "uppercase",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Argentina
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 0,
+                }
+              }
+            />
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </Modal>
+  <View
+    isValid={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#ced4da",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 54,
+          "justifyContent": "space-between",
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "opacity": 1,
+          "width": 32,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "uri": "printer.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "width": 32,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      blurOnSubmit={true}
+      contextMenuHidden={true}
+      keyboardType="phone-pad"
+      onChange={[Function]}
+      placeholder="Enter a phone number..."
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Ubuntu",
+            "fontSize": 26,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "height": "100%",
+            "paddingLeft": 14,
+          },
+          undefined,
+        ]
+      }
+      textContentType="telephoneNumber"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;

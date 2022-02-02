@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The kiosk action creators getKioskIdAndDomainFromUrl should return the correct action 1`] = `
+Object {
+  "type": "GET_KIOSK_ID_AND_DOMAIN_FROM_URL",
+}
+`;
+
+exports[`The kiosk action creators kioskSettingsSuccess should return the correct action 1`] = `
+Object {
+  "payload": Object {
+    "active": true,
+    "assigned": true,
+    "bookingWidgetLink": "some link",
+    "description": "Test description text",
+    "eventSeriesLink": "",
+    "id": 1,
+    "identifier": "identifier",
+    "isPushlinkEnabled": "no",
+    "lastOnline": 2018-09-11T10:00:00.000Z,
+    "lastSoftwareUpdate": 2018-09-11T10:00:00.000Z,
+    "products": Array [],
+    "qudiniVersion": "1.0.0",
+    "serial": "test",
+    "template": Object {
+      "backgroundColor": "#fff",
+      "backgroundImage": null,
+      "backgroundImageIsEnabled": false,
+      "buttonTextColor": "#fff",
+      "confirmationScreenToShow": "CURRENT_STORE_WAIT_TIME",
+      "customTextTranslations": Object {},
+      "customerScreenEmail": "OPTIONAL",
+      "customerScreenGroupSize": "OPTIONAL",
+      "customerScreenIsRequestOrderNumber": false,
+      "customerScreenIsShowMobileWarning": false,
+      "customerScreenNameField": "OPTIONAL",
+      "customerScreenRequestMobileNumberWhen": "NEVER",
+      "customerScreenRequestMpnQueueLength": 0,
+      "customerScreenRequestMpnWaitTime": 0,
+      "customerScreenRequestOrderNumber": "OPTIONAL",
+      "dateCreated": 2018-09-11T10:00:00.000Z,
+      "dateEdited": null,
+      "enableBookingCheckin": false,
+      "enableBookingWidget": false,
+      "enableEventCheckin": false,
+      "enableOrderLookupConfig": false,
+      "enableScreensaver": false,
+      "enableWalkin": true,
+      "font": "Arial",
+      "headingTextColor": "#fff",
+      "id": 0,
+      "languageIsDisplayOther": false,
+      "languagePosition": null,
+      "languages": Object {
+        "mainLanguage": Object {
+          "countryCallingCode": "+44",
+          "countryIsoCode": "GB",
+          "countryName": "United Kingdom",
+          "languageIsoCode": "en",
+          "languageName": "en",
+        },
+        "otherLanguages": Array [],
+        "translations": Object {},
+      },
+      "logo": null,
+      "name": "Test template",
+      "noAvailableImage": Object {},
+      "noAvailableImageUrl": undefined,
+      "orderLookupConfig": null,
+      "screenFlow": "",
+      "screenSaverEnableInSeconds": 10,
+      "secondaryTextColor": "#dfdfdf",
+      "serviceButtonColor": "#fff",
+      "serviceScreenIsWithIcons": false,
+      "serviceShowWaitTime": true,
+      "showNothing": false,
+      "useDefaultStyleTemplateLogo": true,
+      "videoURL": "",
+      "welcomeButtonColor": "#00ff00",
+      "welcomeScreenIsRemove": false,
+    },
+    "ticket": Object {
+      "font": "Arial",
+      "id": 0,
+      "merchant": Object {
+        "id": 0,
+        "name": "Test Merchant",
+      },
+      "name": "Test ticket",
+      "showAtTop": "no",
+      "ticketFor": "me",
+    },
+    "venue": Object {
+      "defaultCountryCode": "GB",
+      "defaultLanguageIsoCode": "US",
+      "id": 1,
+      "isBookingEnabled": true,
+      "isWalkinEnabled": true,
+      "merchant": Object {
+        "featureSettings": Object {
+          "hasQudiniBrand": true,
+        },
+        "id": 123,
+      },
+      "name": "Test Venue 1",
+    },
+  },
+  "type": "KIOSK_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`The kiosk action creators setKioskId should return the correct action 1`] = `
+Object {
+  "payload": Object {
+    "id": "test",
+  },
+  "type": "SET_KIOSK_ID",
+}
+`;
+
+exports[`The kiosk action creators setKioskSerial should return the correct action 1`] = `
+Object {
+  "payload": Object {
+    "serial": "test",
+  },
+  "type": "SET_KIOSK_SERIAL",
+}
+`;
+
+exports[`The kiosk action creators setKioskUrl should return the correct action 1`] = `
+Object {
+  "payload": Object {
+    "url": "test",
+  },
+  "type": "SET_KIOSK_URL",
+}
+`;

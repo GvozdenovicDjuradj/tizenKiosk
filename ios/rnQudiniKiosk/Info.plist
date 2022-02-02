@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Qudini Kiosk</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We require this permission in order to integrate with Star POS printers over Bluetooth.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Required for Bluetooth Printer Support</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fontawesome-brands.ttf</string>
+		<string>fontawesome-regular.ttf</string>
+		<string>fontawesome-solid.ttf</string>
+		<string>Courier.ttf</string>
+		<string>Gadget.ttf</string>
+		<string>Georgia.ttf</string>
+		<string>Impact.ttf</string>
+		<string>Monaco.ttf</string>
+		<string>Tahoma.ttf</string>
+		<string>Verdana.ttf</string>
+		<string>Comic Sans MS.ttf</string>
+		<string>Palatino Linotype.ttf</string>
+		<string>Times New Roman Cyr.ttf</string>
+		<string>impact.ttf</string>
+		<string>Ubuntu Bold Italic.ttf</string>
+		<string>Ubuntu Bold.ttf</string>
+		<string>Ubuntu Condensed.ttf</string>
+		<string>Ubuntu Italic.ttf</string>
+		<string>Ubuntu Light Italic.ttf</string>
+		<string>Ubuntu Light.ttf</string>
+		<string>Ubuntu Medium Italic.ttf</string>
+		<string>Ubuntu Medium.ttf</string>
+		<string>Ubuntu Mono Bold Italic.ttf</string>
+		<string>Ubuntu Mono Bold.ttf</string>
+		<string>Ubuntu Mono Italic.ttf</string>
+		<string>Ubuntu Mono.ttf</string>
+		<string>Ubuntu.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>jp.star-m.starpro</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

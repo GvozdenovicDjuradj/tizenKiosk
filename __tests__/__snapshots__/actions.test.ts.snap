@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App actions tests should return action to change initial App screen 1`] = `
+Object {
+  "payload": "SERVICE_SELECTION",
+  "type": "CHANGE_INITIAL_PAGE_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to change initial App screen 2`] = `
+Array [
+  Object {
+    "payload": "SERVICE_SELECTION",
+    "type": "CHANGE_INITIAL_PAGE_REQUEST",
+  },
+]
+`;
+
+exports[`App actions tests should return action to deactivate Kiosk 1`] = `
+Object {
+  "type": "APP_RESET_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to deactivate Kiosk 2`] = `
+Array [
+  Object {
+    "type": "APP_RESET_REQUEST",
+  },
+]
+`;
+
+exports[`App actions tests should return action to trigger App start 1`] = `
+Object {
+  "type": "APP_START_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to trigger App start 2`] = `
+Array [
+  Object {
+    "type": "APP_START_REQUEST",
+  },
+]
+`;
+
+exports[`App actions tests should return action to trigger App stop 1`] = `
+Object {
+  "type": "APP_SHUTDOWN_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to trigger App stop 2`] = `
+Array [
+  Object {
+    "type": "APP_SHUTDOWN_REQUEST",
+  },
+]
+`;
+
+exports[`App actions tests should return action to trigger get permission read phone state 1`] = `
+Object {
+  "type": "PHONE_STATE_PERMISSION_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to trigger get permission read phone state 2`] = `
+Array [
+  Object {
+    "type": "PHONE_STATE_PERMISSION_REQUEST",
+  },
+]
+`;
+
+exports[`App actions tests should return action to trigger secret tap 1`] = `
+Object {
+  "type": "APP_SECRET_TAP_REQUEST",
+}
+`;
+
+exports[`App actions tests should return action to trigger secret tap 2`] = `
+Array [
+  Object {
+    "type": "APP_SECRET_TAP_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger network check 1`] = `
+Object {
+  "type": "KIOSK_SETTINS_FORM_CHECK_NETWORK_REQUEST",
+}
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger network check 2`] = `
+Array [
+  Object {
+    "type": "KIOSK_SETTINS_FORM_CHECK_NETWORK_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger save kiosk settings 1`] = `
+Object {
+  "type": "KIOSK_SETTINS_FORM_SUBMIT_REQUEST",
+}
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger save kiosk settings 2`] = `
+Array [
+  Object {
+    "type": "KIOSK_SETTINS_FORM_SUBMIT_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger validation of kiosk settings
+      and change Kiosk Identifier and/or Url if valid 1`] = `
+Object {
+  "type": "KIOSK_SETTINGS_FORM_VALIDATE_REQUEST",
+}
+`;
+
+exports[`Kiosk Settings actions tests should return action to trigger validation of kiosk settings
+      and change Kiosk Identifier and/or Url if valid 2`] = `
+Array [
+  Object {
+    "type": "KIOSK_SETTINGS_FORM_VALIDATE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk Settings actions tests should return action to update kiosk settings field 1`] = `
+Object {
+  "payload": Object {
+    "name": "kioskIdentifier",
+    "value": "test",
+  },
+  "type": "KIOSK_SETTINS_FORM_FIELD_UPDATE_REQUEST",
+}
+`;
+
+exports[`Kiosk Settings actions tests should return action to update kiosk settings field 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "name": "kioskIdentifier",
+      "value": "test",
+    },
+    "type": "KIOSK_SETTINS_FORM_FIELD_UPDATE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with AnyProduct in payload 1`] = `
+Object {
+  "payload": Object {
+    "id": 0,
+    "infoText": "info text",
+    "name": "test",
+    "products": Array [
+      Object {
+        "id": "000",
+        "infoText": "info sub text",
+        "showInfo": true,
+        "subTitle": "subtitle",
+      },
+    ],
+    "queueId": 0,
+    "queueName": "test",
+    "showInfo": true,
+  },
+  "type": "KIOSK_SET_SUBPRODUCT_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with AnyProduct in payload 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "id": 0,
+      "infoText": "info text",
+      "name": "test",
+      "products": Array [
+        Object {
+          "id": "000",
+          "infoText": "info sub text",
+          "showInfo": true,
+          "subTitle": "subtitle",
+        },
+      ],
+      "queueId": 0,
+      "queueName": "test",
+      "showInfo": true,
+    },
+    "type": "KIOSK_SET_SUBPRODUCT_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 1`] = `
+Object {
+  "payload": "test@qudini.com",
+  "type": "KIOSK_CHECK_IN_SET_EMAIL_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "test@qudini.com",
+    "type": "KIOSK_CHECK_IN_SET_EMAIL_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 3`] = `
+Object {
+  "payload": "123456",
+  "type": "KIOSK_CHECK_IN_SET_ORDER_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 4`] = `
+Array [
+  Object {
+    "payload": "123456",
+    "type": "KIOSK_CHECK_IN_SET_ORDER_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 5`] = `
+Object {
+  "payload": "test@qudini.com",
+  "type": "KIOSK_CUSTOMER_SET_EMAIL_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Email (string) in payload 6`] = `
+Array [
+  Object {
+    "payload": "test@qudini.com",
+    "type": "KIOSK_CUSTOMER_SET_EMAIL_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Mobile number (string) in payload 1`] = `
+Object {
+  "payload": "+380663705600",
+  "type": "KIOSK_CHECK_IN_SET_MOBILE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Mobile number (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "+380663705600",
+    "type": "KIOSK_CHECK_IN_SET_MOBILE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Mobile number (string) in payload 3`] = `
+Object {
+  "payload": "+380663705600",
+  "type": "KIOSK_CUSTOMER_SET_MOBILE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Mobile number (string) in payload 4`] = `
+Array [
+  Object {
+    "payload": "+380663705600",
+    "type": "KIOSK_CUSTOMER_SET_MOBILE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Name (string) in payload 1`] = `
+Object {
+  "payload": "Some name",
+  "type": "KIOSK_CUSTOMER_SET_NAME_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Name (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "Some name",
+    "type": "KIOSK_CUSTOMER_SET_NAME_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Order number (string) in payload 1`] = `
+Object {
+  "payload": "123456",
+  "type": "KIOSK_CUSTOMER_SET_ORDER_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer Order number (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "123456",
+    "type": "KIOSK_CUSTOMER_SET_ORDER_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Customer country (string) in payload 1`] = `
+Object {
+  "payload": "Country",
+  "type": "KIOSK_CUSTOMER_SET_COUNTRY_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Customer country (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "Country",
+    "type": "KIOSK_CUSTOMER_SET_COUNTRY_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Language as payload 1`] = `
+Object {
+  "payload": Object {
+    "countryCallingCode": "",
+    "countryIsoCode": "GB",
+    "countryName": "GB",
+    "languageIsoCode": "en",
+    "languageName": "en",
+  },
+  "type": "KIOSK_SET_LANGUAGE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Language as payload 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "countryCallingCode": "",
+      "countryIsoCode": "GB",
+      "countryName": "GB",
+      "languageIsoCode": "en",
+      "languageName": "en",
+    },
+    "type": "KIOSK_SET_LANGUAGE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with Product in payload 1`] = `
+Object {
+  "payload": Object {
+    "id": 0,
+    "name": "test",
+    "queueId": 0,
+    "queueName": "test",
+    "waitTime": 0,
+  },
+  "type": "KIOSK_SET_PRODUCT_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with Product in payload 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "id": 0,
+      "name": "test",
+      "queueId": 0,
+      "queueName": "test",
+      "waitTime": 0,
+    },
+    "type": "KIOSK_SET_PRODUCT_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return action with calling code (string) in payload 1`] = `
+Object {
+  "payload": "+44",
+  "type": "KIOSK_CUSTOMER_SET_CALLING_CODE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return action with calling code (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "+44",
+    "type": "KIOSK_CUSTOMER_SET_CALLING_CODE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 1`] = `
+Object {
+  "hasPrinter": true,
+  "type": "KIOSK_REGISTER_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 2`] = `
+Array [
+  Object {
+    "hasPrinter": true,
+    "type": "KIOSK_REGISTER_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 3`] = `
+Object {
+  "type": "KIOSK_CHECK_IN_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 4`] = `
+Array [
+  Object {
+    "type": "KIOSK_CHECK_IN_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 5`] = `
+Object {
+  "type": "KIOSK_CUSTOMER_ADD_TO_QUEUE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 6`] = `
+Array [
+  Object {
+    "type": "KIOSK_CUSTOMER_ADD_TO_QUEUE_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 7`] = `
+Object {
+  "type": "APP_GO_INITIAL_SCREEN_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 8`] = `
+Array [
+  Object {
+    "type": "APP_GO_INITIAL_SCREEN_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 9`] = `
+Object {
+  "type": "KIOSK_QUEUE_DATA_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 10`] = `
+Array [
+  Object {
+    "type": "KIOSK_QUEUE_DATA_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 11`] = `
+Object {
+  "type": "KIOSK_SETTINGS_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests Should return object with property "type" 12`] = `
+Array [
+  Object {
+    "type": "KIOSK_SETTINGS_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests should return action with Venue country (string) in payload 1`] = `
+Object {
+  "payload": "UK",
+  "type": "KIOSK_SET_COUNTRY_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests should return action with Venue country (string) in payload 2`] = `
+Array [
+  Object {
+    "payload": "UK",
+    "type": "KIOSK_SET_COUNTRY_REQUEST",
+  },
+]
+`;
+
+exports[`Kiosk actions tests should return object with payload for updating field value 1`] = `
+Object {
+  "payload": Object {
+    "name": "url",
+    "value": "https://qa.qudini.com",
+  },
+  "type": "KIOSK_FIELD_UPDATE_REQUEST",
+}
+`;
+
+exports[`Kiosk actions tests should return object with payload for updating field value 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "name": "url",
+      "value": "https://qa.qudini.com",
+    },
+    "type": "KIOSK_FIELD_UPDATE_REQUEST",
+  },
+]
+`;
+
+exports[`Validation action test Should return object with "type" and "payload" 1`] = `
+Object {
+  "payload": Object {
+    "HOME": Object {
+      "url": Object {
+        "error": Array [],
+        "valid": true,
+      },
+    },
+  },
+  "type": "VALIDATION_STATE_CHANGE",
+}
+`;
+
+exports[`Validation action test Should return object with "type" and "payload" 2`] = `
+Array [
+  Object {
+    "payload": Object {
+      "HOME": Object {
+        "url": Object {
+          "error": Array [],
+          "valid": true,
+        },
+      },
+    },
+    "type": "VALIDATION_STATE_CHANGE",
+  },
+]
+`;

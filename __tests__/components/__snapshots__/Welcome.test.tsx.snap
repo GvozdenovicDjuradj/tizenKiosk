@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome component tests Should render Welcome component with backgound image and language selector 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "height": 100,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F80347",
+          "justifyContent": "center",
+          "marginTop": 80,
+          "padding": 20,
+          "width": "100%",
+        },
+        Object {
+          "backgroundColor": "#00ff00",
+        },
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Arial",
+            "fontSize": 55,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#fff",
+            "fontFamily": "Arial",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flex": 3,
+        "paddingHorizontal": 50,
+        "paddingTop": 40,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00ff00",
+            "borderRadius": 130,
+            "elevation": 7,
+            "height": 260,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 1,
+            },
+            "shadowOpacity": 0.8,
+            "shadowRadius": 10,
+            "width": 260,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "bottom": 15,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 50,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "printer.png",
+        }
+      }
+      style={
+        Object {
+          "height": 50,
+          "resizeMode": "contain",
+          "width": 170,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "flexDirection": "row",
+          "height": 80,
+          "justifyContent": "flex-start",
+          "paddingHorizontal": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://qa.qudini.com/static/gb.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "width": 60,
+            }
+          }
+        />
+        <Text>
+          en
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://qa.qudini.com/static/ua.png",
+            }
+          }
+          style={
+            Object {
+              "height": 45,
+              "width": 60,
+            }
+          }
+        />
+        <Text>
+          ua
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

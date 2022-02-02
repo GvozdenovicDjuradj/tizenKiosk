@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Service button tests Should pass props to ServiceButton successfully 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ff0000",
+      "borderBottomLeftRadius": 6,
+      "borderBottomRightRadius": 6,
+      "borderTopLeftRadius": 6,
+      "borderTopRightRadius": 6,
+      "elevation": 7,
+      "height": 150,
+      "justifyContent": "center",
+      "margin": 15,
+      "opacity": 1,
+      "padding": 15,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 5,
+        "width": 2,
+      },
+      "shadowOpacity": 0.8,
+      "shadowRadius": 2,
+      "width": "30%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "FontAwesome5FreeSolid",
+            },
+            Object {
+              "color": "#ffffff",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Arial",
+          },
+        ]
+      }
+    >
+      product tile
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Arial",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Wait time: 
+      3 d 2 h 15 mins
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Service button tests Should render ServiceButton component successfully 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ff0000",
+      "borderBottomLeftRadius": 6,
+      "borderBottomRightRadius": 6,
+      "borderTopLeftRadius": 6,
+      "borderTopRightRadius": 6,
+      "elevation": 7,
+      "height": 150,
+      "justifyContent": "center",
+      "margin": 15,
+      "opacity": 1,
+      "padding": 15,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 5,
+        "width": 2,
+      },
+      "shadowOpacity": 0.8,
+      "shadowRadius": 2,
+      "width": "30%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Arial",
+          },
+        ]
+      }
+    >
+      product
+    </Text>
+  </View>
+</View>
+`;

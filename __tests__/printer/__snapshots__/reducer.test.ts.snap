@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the printer reducer module should have the following initialState 1`] = `
+Object {
+  "connectedPrinters": Immutable.List [],
+  "debugOutput": Array [],
+  "isCurrentPrintATest": false,
+  "isDebugOutputVisible": false,
+  "isFindingPrinters": false,
+  "isNotificationVisible": false,
+  "isPendingPrint": false,
+  "isPrinterEnabled": false,
+  "localCurrentDate": "",
+  "localCurrentTime": "",
+  "logoFooterUrl": "",
+  "logoUrl": "",
+  "notificationMessage": "",
+  "notificationTitle": "",
+  "selectedPrinter": undefined,
+  "showAtTopValue": "",
+  "ticketMessage": "",
+}
+`;

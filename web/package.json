@@ -1,0 +1,41 @@
+{
+  "name": "rnQudiniKiosk",
+  "version": "2.7.1",
+  "description": "Qudini Kiosk application",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "4.0.1",
+    "electron-builder": "20.38.4"
+  },
+  "scripts": {
+    "dist": "electron-builder",
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.qudini.rnQudiniKiosk",
+    "productName": "Qudini Kiosk",
+    "files": [
+      "./**"
+    ],
+    "nsis": {
+      "oneClick": false,
+      "createDesktopShortcut": true,
+      "deleteAppDataOnUninstall": true,
+      "installerIcon": "images/icon.ico"
+    },
+    "mac": {
+      "icon": "./images/apple-icon-180x180.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./images/icon.ico"
+    }
+  },
+  "win": {
+    "icon": "./images/icon.ico"
+  },
+  "author": "Qudini",
+  "license": "ISC"
+}

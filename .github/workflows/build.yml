@@ -1,0 +1,34 @@
+on:
+  # Trigger analysis when pushing in master or pull requests, and when creating
+  # a pull request.
+  push:
+    branches:
+      - master
+      - web-mobile-remote-join
+  pull_request:
+      types: [opened, synchronize, reopened]
+name: Main Workflow
+jobs:
+  sonarcloud:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # Disabling shallow clone is recommended for improving relevancy of reporting
+        fetch-depth: 0
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: cp .npm/.npmrc ~/.npmrc && npm config list
+      env:
+        ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+        ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+    - run: npm install
+      env:
+        ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+        ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+    - name: SonarCloud Scan
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

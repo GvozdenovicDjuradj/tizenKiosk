@@ -1,0 +1,223 @@
+{
+  "models": [
+    {
+      "names": [
+        "STAR mPOP-",
+        "mPOP"
+      ],
+      "modelTitle": "mPOP",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "FVP10 (STR_T-001)",
+        "Star FVP10"
+      ],
+      "modelTitle": "FVP10",
+      "defaultPaperWidth": 576,
+      "emulation": "StarLine"
+    },
+    {
+      "names": [
+        "TSP113",
+        "TSP143",
+        "TSP100-",
+        "Star TSP113",
+        "Star TSP143"
+      ],
+      "modelTitle": "TSP100",
+      "defaultPaperWidth": 576,
+      "emulation": "StarGraphic"
+    },
+    {
+      "names": [
+        "TSP654II (STR_T-001)",
+        "TSP654 (STR_T-001)",
+        "TSP651 (STR_T-001)"
+      ],
+      "modelTitle": "TSP650II",
+      "defaultPaperWidth": 576,
+      "emulation": "StarLine"
+    },
+    {
+      "names": [
+        "TSP743II (STR_T-001)",
+        "TSP743 (STR_T-001)"
+      ],
+      "modelTitle": "TSP700II",
+      "defaultPaperWidth": 576,
+      "emulation": "StarLine"
+    },
+    {
+      "names": [
+        "TSP847II (STR_T-001)",
+        "TSP847 (STR_T-001)"
+      ],
+      "modelTitle": "TSP800II",
+      "defaultPaperWidth": 832,
+      "emulation": "StarLine"
+    },
+    {
+      "names": [
+        "SP712 (STR-001)",
+        "SP717 (STR-001)",
+        "SP742 (STR-001)",
+        "SP747 (STR-001)"
+      ],
+      "modelTitle": "SP700",
+      "defaultPaperWidth": 210,
+      "emulation": "StarDotImpact"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S210i",
+      "defaultPaperWidth": 384,
+      "emulation": "EscPosMobile"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S220i",
+      "defaultPaperWidth": 384,
+      "emulation": "EscPosMobile"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S230i",
+      "defaultPaperWidth": 384,
+      "emulation": "EscPosMobile"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-T300i/T300",
+      "defaultPaperWidth": 576,
+      "emulation": "EscPosMobile"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-T400i",
+      "defaultPaperWidth": 832,
+      "emulation": "EscPosMobile"
+    },
+    {
+      "names": [
+        "STAR L200-",
+        "STAR L204-"
+      ],
+      "modelTitle": "SM-L200",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "BSC10",
+        "Star BSC10"
+      ],
+      "modelTitle": "BSC10",
+      "defaultPaperWidth": 512,
+      "emulation": "EscPos"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S210i StarPRNT",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S220i StarPRNT",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-S230i StarPRNT",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-T300i StarPRNT",
+      "defaultPaperWidth": 576,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [],
+      "modelTitle": "SM-T400i StarPRNT",
+      "defaultPaperWidth": 832,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "STAR L300-",
+        "STAR L304-"
+      ],
+      "modelTitle": "SM-L300",
+      "defaultPaperWidth": 576,
+      "emulation": "StarPRNTL"
+    },
+    {
+      "names": [
+        "MCP20 (STR-001)",
+        "MCP21 (STR-001)",
+        "MCP21LB",
+        "mC-Print2-",
+        "mC-Print2"
+      ],
+      "modelTitle": "mC-Print2",
+      "defaultPaperWidth": 384,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "MCP31 (STR-001)",
+        "mC-Print3-",
+        "mC-Print3"
+      ],
+      "modelTitle": "mC-Print3",
+      "defaultPaperWidth": 576,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "TUP592 (STR_T-001)",
+        "TUP542 (STR_T-001)"
+      ],
+      "modelTitle": "TUP500",
+      "defaultPaperWidth": 576,
+      "emulation": "StarLine"
+    },
+    {
+      "names": [
+        "SK1-211_221"
+      ],
+      "modelTitle": "SK1-211/221/V211",
+      "defaultPaperWidth": 432,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "SK1-211_221 Presenter"
+      ],
+      "modelTitle": "SK1-211/221/V211 Presenter",
+      "defaultPaperWidth": 432,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "SK1-311_321"
+      ],
+      "modelTitle": "SK1-311/321/V311",
+      "defaultPaperWidth": 576,
+      "emulation": "StarPRNT"
+    },
+    {
+      "names": [
+        "SK1-311 Presenter"
+      ],
+      "modelTitle": "SK1-311/V311 Presenter",
+      "defaultPaperWidth": 576,
+      "emulation": "StarPRNT"
+    }
+  ]
+}

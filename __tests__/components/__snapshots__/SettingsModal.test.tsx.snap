@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsModal component test should render SettingsModal successfully 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "flex": 1,
+      "height": "100%",
+      "paddingBottom": 0,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexGrow": 0.1,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000",
+          "fontSize": 26,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Kiosk Settings
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "FontAwesome5FreeSolid",
+            "fontSize": 32,
+          }
+        }
+      >
+        
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <ScrollViewMock
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flexGrow": 0.9,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginBottom": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            URL
+          </Text>
+        </View>
+        <View>
+          <Connect(WrappedInput)
+            name="newKioskUrl"
+            onChangeText={[Function]}
+            placeholder="kiosk URL"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "height": 38,
+                "lineHeight": 18,
+              }
+            }
+            validate={[Function]}
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Kiosk ID
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Connect(WrappedInput)
+            name="kioskId"
+            onChangeText={[Function]}
+            placeholder="kiosk ID"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "height": 38,
+                "lineHeight": 18,
+              }
+            }
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 50,
+            },
+            Object {
+              "marginBottom": 10,
+            },
+          ]
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                },
+                Object {
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            Kiosk Mode
+          </Text>
+        </View>
+        <Switch
+          onValueChange={[Function]}
+          value={true}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 10,
+        }
+      }
+    >
+      <Connect(_default) />
+    </View>
+    <DeviceInfoContainer
+      deviceImei="IMEI"
+      uniqueId="1234567890"
+      version="1.0.1"
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "minHeight": 50,
+          },
+          Object {
+            "marginBottom": 10,
+          },
+        ]
+      }
+    >
+      <_default
+        disabled={false}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderColor": "#dfdfdf",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+            },
+            Object {},
+          ]
+        }
+        text="Validate Settings"
+        textColor="#000"
+      />
+      <_default
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#dfdfdf",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+            "paddingHorizontal": 10,
+          }
+        }
+        text="Check Network"
+        textColor="#000"
+      />
+      <_default
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#dfdfdf",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+            "paddingHorizontal": 10,
+          }
+        }
+        text="Deactivate Kiosk"
+        textColor="#000"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginBottom": 10,
+        }
+      }
+    >
+      <ScrollViewMock
+        style={
+          Object {
+            "borderColor": "#000",
+            "borderWidth": 1,
+            "padding": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "opacity": 0.7,
+            }
+          }
+        >
+          This is where network or validation messaging would appear
+        </Text>
+      </ScrollViewMock>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 120,
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <_default
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderColor": "#dfdfdf",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+            },
+            Object {},
+          ]
+        }
+        text="Save Settings"
+        textColor="#000"
+      />
+      <_default
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#dfdfdf",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+            "paddingHorizontal": 10,
+          }
+        }
+        text="Minimize app"
+        textColor="#000"
+      />
+    </View>
+  </ScrollViewMock>
+</View>
+`;

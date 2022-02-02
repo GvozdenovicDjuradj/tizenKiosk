@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle button test CircleButton should render successfully 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 130,
+      "elevation": 7,
+      "height": 260,
+      "justifyContent": "center",
+      "marginBottom": 10,
+      "opacity": 1,
+      "padding": 5,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 1,
+      },
+      "shadowOpacity": 0.8,
+      "shadowRadius": 10,
+      "width": 260,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 30,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    Some
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 30,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;

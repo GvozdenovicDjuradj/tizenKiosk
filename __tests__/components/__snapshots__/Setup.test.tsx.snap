@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup component tests should render Setup ListItem component successfully 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "fontFamily": "Arial",
+        "fontSize": 20,
+      }
+    }
+  >
+    •
+     
+    title1
+  </Text>
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+        }
+      }
+    >
+      		◦
+       
+      title1.1
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+        }
+      }
+    >
+      		◦
+       
+      title1.2
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Setup component tests should render Setup component successfully 1`] = `
+<RCTScrollView
+  automaticallyAdjustContentInsets={false}
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={false}
+  extraHeight={75}
+  extraScrollHeight={0}
+  getScrollResponder={[Function]}
+  handleOnScroll={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardOpeningTime={250}
+  keyboardSpace={0}
+  onScroll={[Function]}
+  resetKeyboardSpace={[Function]}
+  scrollEventThrottle={1}
+  scrollForExtraHeightOnAndroid={[Function]}
+  scrollIntoView={[Function]}
+  scrollToEnd={[Function]}
+  scrollToFocusedInput={[Function]}
+  scrollToPosition={[Function]}
+  showsVerticalScrollIndicator={true}
+  update={[Function]}
+  viewIsInsideTabBar={false}
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F80347",
+            "justifyContent": "center",
+            "marginTop": 80,
+            "padding": 20,
+            "width": "100%",
+          },
+          Object {},
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 55,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            Object {},
+          ]
+        }
+      >
+        Kiosk setup
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 3,
+            "flexDirection": "row",
+            "paddingHorizontal": 50,
+            "paddingTop": 40,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.6,
+            "paddingRight": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 32.5,
+                "borderWidth": 7,
+                "height": 65,
+                "justifyContent": "center",
+                "width": 65,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "height": 65,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "Arial",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Add a kiosk to your venue
+            </Text>
+          </View>
+        </View>
+        <RCTScrollView
+          data={
+            Array [
+              Object {
+                "key": "1",
+                "title": "Login to app.qudini.com with a merchant or venue admin account",
+              },
+              Object {
+                "key": "2",
+                "title": "Click ‘Settings’ then ‘Kiosk’",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "key": "3.1",
+                    "title": "Kiosk description (just for your reference as to the location of the kiosk)",
+                  },
+                  Object {
+                    "key": "3.2",
+                    "title": "Select a kiosk design template (defined by your merchant admin)",
+                  },
+                  Object {
+                    "key": "3.3",
+                    "title": "Select the products to be used for this kiosk",
+                  },
+                ],
+                "key": "3",
+                "title": "Add a kiosk and set the following:",
+              },
+              Object {
+                "key": "4",
+                "title": "Press save. This then generates a kiosk ID to be used in step 2.",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "Arial",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  •
+                   
+                  Login to app.qudini.com with a merchant or venue admin account
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "Arial",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  •
+                   
+                  Click ‘Settings’ then ‘Kiosk’
+                </Text>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "Arial",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  •
+                   
+                  Add a kiosk and set the following:
+                </Text>
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "Arial",
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    		◦
+                     
+                    Kiosk description (just for your reference as to the location of the kiosk)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "Arial",
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    		◦
+                     
+                    Select a kiosk design template (defined by your merchant admin)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "Arial",
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    		◦
+                     
+                    Select the products to be used for this kiosk
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "Arial",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  •
+                   
+                  Press save. This then generates a kiosk ID to be used in step 2.
+                </Text>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+              "paddingBottom": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "printer.png",
+              }
+            }
+            style={
+              Object {
+                "height": 40,
+                "resizeMode": "contain",
+                "width": 136,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 32.5,
+                "borderWidth": 7,
+                "height": 65,
+                "justifyContent": "center",
+                "width": 65,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              2
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "height": 65,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "Arial",
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "paddingLeft": 15,
+                  },
+                ]
+              }
+            >
+              Register your Kiosk
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#dfdfdf",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "width": "100%",
+                },
+                Object {},
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCorrect={false}
+              dispatch={[Function]}
+              name="url"
+              onChange={[Function]}
+              onChangeText={[Function]}
+              onEndEditing={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="URL"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              style={
+                Array [
+                  Object {
+                    "borderWidth": 0,
+                    "flex": 1,
+                    "fontSize": 26,
+                    "paddingLeft": 20,
+                  },
+                  Array [
+                    Object {
+                      "borderWidth": 0,
+                      "flex": 1,
+                      "fontSize": 26,
+                      "paddingLeft": 20,
+                    },
+                    undefined,
+                    Object {
+                      "paddingRight": 20,
+                    },
+                    Object {
+                      "height": 54,
+                    },
+                  ],
+                  Object {
+                    "fontFamily": undefined,
+                  },
+                ]
+              }
+              testID="url"
+              underlineColorAndroid="transparent"
+              validate={[Function]}
+              value=""
+            />
+          </View>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          dispatch={[Function]}
+          name="kioskIdentifier"
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Kiosk ID"
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          style={
+            Array [
+              Object {
+                "borderWidth": 0,
+                "flex": 1,
+                "fontSize": 26,
+                "paddingLeft": 20,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#dfdfdf",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "width": "100%",
+                },
+                Object {
+                  "flex": 0,
+                  "marginTop": 15,
+                },
+                Object {
+                  "paddingRight": 20,
+                },
+              ],
+              Object {
+                "fontFamily": undefined,
+              },
+            ]
+          }
+          testID="kioskIdentifier"
+          underlineColorAndroid="transparent"
+          value="1"
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "marginTop": 10,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "black",
+                    "fontFamily": "Ubuntu",
+                    "fontSize": 20,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              CONNECT PRINTER
+            </Text>
+            <RCTSwitch
+              accessibilityRole="button"
+              onChange={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "height": 31,
+                  "width": 51,
+                }
+              }
+              value={false}
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F80347",
+              "borderRadius": 5,
+              "height": 75,
+              "justifyContent": "center",
+              "marginTop": 15,
+              "opacity": 1,
+            }
+          }
+          testID="save"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 22,
+              }
+            }
+          >
+            Save settings
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

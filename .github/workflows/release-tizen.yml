@@ -1,0 +1,32 @@
+name: Tizen Release
+
+on:
+  push:
+    branches: [ tizen-project-structure ]
+    tags:
+      - "v*"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  release:
+    if: github.event.base_ref == 'refs/heads/tizen-project-structure'
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Build Tizen app
+        id: tizen-build-action
+        uses: sourcetoad/tizen-build-action@v1.0.1
+        with:
+          project-dir: ${{ github.workspace }}/tizen
+          author-key: ${{ secrets.TIZEN_AUTHOR_KEY }}
+          author-password: ${{ secrets.TIZEN_AUTHOR_KEY_PW }}
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            /home/runner/work/kiosk/kiosk/tizen/output.wgt/QudiniKioskApp.wgt
