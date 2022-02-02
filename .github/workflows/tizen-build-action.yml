@@ -33,8 +33,9 @@ jobs:
           author-key: ${{ secrets.TIZEN_AUTHOR_KEY }}
           author-password: ${{ secrets.TIZEN_AUTHOR_KEY_PW }}
 
-      - name: Upload Tizen package artifact
-        uses: actions/upload-artifact@v2
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-           name: app-${{ github.sha }}.wgt
-           path: ${{ steps.tizen-build-action.outputs.package-artifact }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            /home/runner/work/kiosk/kiosk/tizen/output.wgt/QudiniKioskApp.wgt
