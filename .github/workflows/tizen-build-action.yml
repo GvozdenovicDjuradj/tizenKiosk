@@ -24,6 +24,23 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      
+      
+  #     - run: cp .npm/.npmrc ~/.npmrc && npm config list
+  #       env:
+  #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+  #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+      - run: npm install
+  #       env:
+  #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
+  #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
+
+      - run: cd ${{ github.workspace }}
+      - run: ls
+      - run: npm run web:build
+      - run: ls ${{ github.workspace }}/web
+      - run: ls ${{ github.workspace }}/web/build
 
       - name: Build Tizen app
         id: tizen-build-action
@@ -33,8 +50,9 @@ jobs:
           author-key: ${{ secrets.TIZEN_AUTHOR_KEY }}
           author-password: ${{ secrets.TIZEN_AUTHOR_KEY_PW }}
 
-      - name: Upload Tizen package artifact
-        uses: actions/upload-artifact@v2
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-           name: app-${{ github.sha }}.wgt
-           path: ${{ steps.tizen-build-action.outputs.package-artifact }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            /home/runner/work/kiosk/kiosk/tizen/output.wgt/QudiniKioskApp.wgt
