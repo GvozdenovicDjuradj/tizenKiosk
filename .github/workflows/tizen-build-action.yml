@@ -40,7 +40,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-
+      - name: run npm install
+        run: npm install
       - run: cd ${{ github.workspace }}
       - run: npm run web:build
       
