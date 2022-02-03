@@ -32,7 +32,7 @@ jobs:
   #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
   #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
       - name: run npm install
-      - run: npm install
+        run: npm install
   #       env:
   #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
   #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
