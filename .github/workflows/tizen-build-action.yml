@@ -41,6 +41,8 @@ jobs:
       - run: npm run web:build
       - run: ls ${{ github.workspace }}/web
       - run: ls ${{ github.workspace }}/web/build
+      
+      - run : cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
 
       - name: Build Tizen app
         id: tizen-build-action
