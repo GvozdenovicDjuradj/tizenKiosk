@@ -44,6 +44,8 @@ jobs:
       - name: run npm install
         run: npm install
       - run: npm run web:build
+      
+      - run: cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
 
       - name: Build Tizen app
         id: tizen-build-action
@@ -53,9 +55,9 @@ jobs:
           author-key: ${{ secrets.TIZEN_AUTHOR_KEY }}
           author-password: ${{ secrets.BOOPRO_PASSWORD }}
           
-      - run: cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
       - run: git config --global user.name 'GvozdenovicDjuradj'
       - run: git config --global user.email 'djura0407@gmail.com'
+      - run: git add ${{ github.workspace }}/tizen/*
       - run: git commit -am "push back to repo"
       - run: git push
 
