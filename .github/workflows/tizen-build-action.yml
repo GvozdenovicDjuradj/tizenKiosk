@@ -39,8 +39,9 @@ jobs:
       - run: cd ${{ github.workspace }}
       - run: npm run web:build
       
-      - run : cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
-      
+      - run: cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
+      - run: git config --global user.name 'GvozdenovicDjuradj'
+      - run: git config --global user.email 'djura0407@gmail.com'
       - run: git commit -am "push back to repo"
       - run: git push
 
