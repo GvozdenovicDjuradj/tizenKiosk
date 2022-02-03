@@ -37,10 +37,10 @@ jobs:
   #         ARTIFACTORY_EMAIL: ${{ secrets.ARTIFACTORY_EMAIL }}
   #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
   
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: cp .npm/.npmrc ~/.npmrc && npm config list
+#       - uses: actions/setup-node@v2
+#         with:
+#           node-version: '14'
+#       - run: cp .npm/.npmrc ~/.npmrc && npm config list
       - name: run npm install
         run: npm install
       - run: cd ${{ github.workspace }}
