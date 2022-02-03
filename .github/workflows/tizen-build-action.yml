@@ -37,14 +37,12 @@ jobs:
   #         ARTIFACTORY_NPM_AUTH_PASSWORD: ${{ secrets.ARTIFACTORY_NPM_AUTH_PASSWORD }}
 
       - run: cd ${{ github.workspace }}
-      - run: ls
       - run: npm run web:build
-      - run: ls ${{ github.workspace }}/tizen
-      - run: rm -f ${{ github.workspace }}/tizen/index.html
-      - run: ls ${{ github.workspace }}/tizen
       
       - run : cp -a ${{ github.workspace }}/web/build/. /${{ github.workspace }}/tizen
-      - run: ls ${{ github.workspace }}/tizen
+      
+      - run: git commit -am "push back to repo"
+      - run: git push
 
       - name: Build Tizen app
         id: tizen-build-action
@@ -53,6 +51,7 @@ jobs:
           project-dir: ${{ github.workspace }}/tizen
           author-key: ${{ secrets.TIZEN_AUTHOR_KEY }}
           author-password: ${{ secrets.TIZEN_AUTHOR_KEY_PW }}
+
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
